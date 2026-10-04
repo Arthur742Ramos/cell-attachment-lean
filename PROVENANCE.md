@@ -60,7 +60,7 @@ must match these constructions exactly.
 ## Authorship and assistance
 
 Authors: Arthur Freitas Ramos, David Barros Hulak, Ruy Jose Guerra Barretto de Queiroz
-Sole responsible maintainer: Arthur Freitas Ramos
+Responsible maintainers: Arthur Freitas Ramos, David Barros Hulak, Ruy Jose Guerra Barretto de Queiroz
 
 Lean construction and separate statement, implementation and adversarial reviews
 were AI-assisted. Mathematical/proof scope, actual source hashes and kernel
