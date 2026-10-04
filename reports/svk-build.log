@@ -1,0 +1,632 @@
+[1/34] Lean4.fraction
+[2/34] Lean4.cover_lemma
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/cover_lemma.lean:63:36: warning: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/cover_lemma.lean:110:89: warning: `setOf` has been deprecated: Use `Set.ofPred` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵S̲e̲t̲.̲o̲f̲P̲r̲e̲d̲
+[3/34] Lean4.directed_space
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_space.lean:42:0: warning: Definition `isDipath_constant` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_space.lean:45:0: warning: Definition `isDipath_concat` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_space.lean:48:0: warning: Definition `isDipath_reparam` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+[4/34] Lean4.directed_map
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_map.lean:31:51: warning: The syntax is now `structure S : Type extends P` rather than `structure S extends P : Type`
+
+Note: The purpose of this change is to accommodate `structure S extends toP : P` syntax for naming parent projections.
+[5/34] Lean4.monotone_path
+[6/34] Lean4.constructions
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/constructions.lean:17:0: warning: Definition `DirectedSpace.Preorder` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/constructions.lean:44:0: warning: Definition `DirectedSpace.Induced` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+[7/34] Lean4.directed_unit_interval
+[8/34] Lean4.unit_interval_aux
+[9/34] Lean4.dipath
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:25:44: warning: `structure ... :=` has been deprecated in favor of `structure ... where`.
+
+Note: This linter can be disabled with `set_option linter.deprecated false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:39:9: warning: The namespace `Dipath` is duplicated in the declaration `Dipath.Dipath.instFunLike`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:46:9: warning: The namespace `Dipath` is duplicated in the declaration `Dipath.Dipath.directedMapClass`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:289:24: warning: This simp argument is unused:
+  γ₁.source'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [γ₂.source']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:289:36: warning: This simp argument is unused:
+  γ₂.source'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [γ₁.source']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:290:24: warning: This simp argument is unused:
+  γ₁.target'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [γ₂.target']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:290:36: warning: This simp argument is unused:
+  γ₂.target'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [γ₁.target']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:294:41: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:294:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:295:41: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath.lean:295:51: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[10/34] Lean4.dTop
+[11/34] Lean4.interpolate
+[12/34] Lean4.SplitPath.split_path
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_path.lean:23:22: warning: This simp argument is unused:
+  γ.source'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_path.lean:30:22: warning: This simp argument is unused:
+  γ.target'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[13/34] Lean4.SplitPath.split_dipath
+[14/34] Lean4.stretch_path
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/stretch_path.lean:28:24: warning: This simp argument is unused:
+  γ.source'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/stretch_path.lean:29:24: warning: This simp argument is unused:
+  γ.target'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/stretch_path.lean:56:24: warning: This simp argument is unused:
+  γ.source'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/stretch_path.lean:57:24: warning: This simp argument is unused:
+  γ.target'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[15/34] Lean4.directed_homotopy
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_homotopy.lean:29:69: warning: `structure ... :=` has been deprecated in favor of `structure ... where`.
+
+Note: This linter can be disabled with `set_option linter.deprecated false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_homotopy.lean:38:41: warning: The syntax is now `structure S : Type extends P` rather than `structure S extends P : Type`
+
+Note: The purpose of this change is to accommodate `structure S extends toP : P` syntax for naming parent projections.
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_homotopy.lean:209:8: warning: This simp argument is unused:
+  ht
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_homotopy.lean:309:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_homotopy.lean:453:89: warning: `structure ... :=` has been deprecated in favor of `structure ... where`.
+
+Note: This linter can be disabled with `set_option linter.deprecated false`
+[16/34] Lean4.trans_refl
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/trans_refl.lean:118:26: warning: This simp argument is unused:
+  not_le
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Path.trans_apply, coe_to_fun, Function.comp_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/trans_refl.lean:118:34: warning: This simp argument is unused:
+  coe_to_fun
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Path.trans_apply, not_le, Function.comp_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[17/34] Lean4.directed_path_homotopy
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_path_homotopy.lean:160:8: warning: This simp argument is unused:
+  this
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ht_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_path_homotopy.lean:177:8: warning: This simp argument is unused:
+  ht
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_path_homotopy.lean:267:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_path_homotopy.lean:307:41: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/directed_path_homotopy.lean:678:17: warning: Definition `Dipath.Dihomotopic.setoid` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+[18/34] Lean4.fundamental_category
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fundamental_category.lean:40:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fundamental_category.lean:49:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fundamental_category.lean:75:0: warning: Definition `trans_assoc` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fundamental_category.lean:140:17: warning: Definition `Dipath.Dihomotopic.setoid` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fundamental_category.lean:202:19: warning: This simp argument is unused:
+  Quotient.map_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Dipath.map_map, Quotient.eq']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fundamental_category.lean:202:36: warning: This simp argument is unused:
+  Dipath.map_map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Quotient.map_mk, Quotient.eq']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fundamental_category.lean:202:52: warning: This simp argument is unused:
+  Quotient.eq'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Quotient.map_mk, Dipath.map_map]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[19/34] Lean4.dipath_subtype
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dipath_subtype.lean:11:17: warning: Definition `Dipath.Dihomotopic.setoid` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+[20/34] Lean4.fraction_equalities
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fraction_equalities.lean:35:13: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.Fraction_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/fraction_equalities.lean:35:33: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.ofPos_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[21/34] Lean4.SplitPath.split_properties
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:205:15: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [unitInterval.coe_symm_eq, Nat.cast_succ, Nat.cast_zero, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:206:21: warning: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.Fraction_coe, unitInterval.coe_symm_eq, Nat.cast_succ, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:212:15: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [unitInterval.coe_symm_eq, Nat.cast_succ, Nat.cast_zero, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:213:21: warning: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.Fraction_coe, unitInterval.coe_symm_eq, Nat.cast_succ, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:262:15: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.ofPos_coe, unitInterval.coe_symm_eq, Nat.cast_add, Nat.cast_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:262:38: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.Fraction_coe, unitInterval.coe_symm_eq, Nat.cast_add, Nat.cast_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:273:15: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.ofPos_coe, unitInterval.coe_symm_eq, Nat.cast_add, Nat.cast_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:273:38: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.Fraction_coe, unitInterval.coe_symm_eq, Nat.cast_add, Nat.cast_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:337:17: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.ofPos_coe, unitInterval.coe_symm_eq, Nat.cast_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:337:40: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.Fraction_coe, unitInterval.coe_symm_eq, Nat.cast_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:376:17: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.ofPos_coe, unitInterval.coe_symm_eq, Nat.cast_succ, Nat.cast_zero, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:376:40: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.Fraction_coe, unitInterval.coe_symm_eq, Nat.cast_succ, Nat.cast_zero, Nat.cast_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:377:38: warning: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fraction.Fraction_coe, Fraction.ofPos_coe, unitInterval.coe_symm_eq, Nat.cast_succ, Nat.cast_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:441:10: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [this]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:465:6: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:580:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:668:33: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:668:57: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:668:57: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:668:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:681:6: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/SplitPath/split_properties.lean:685:15: warning: This simp argument is unused:
+  unitInterval.coe_symm_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[22/34] Lean4.path_cover
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_cover.lean:143:50: warning: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_cover.lean:180:76: warning: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_cover.lean:318:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_cover.lean:302:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_cover.lean:302:8: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_cover.lean:376:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_cover.lean:367:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+[23/34] Lean4.split_dihomotopy
+[24/34] Lean4.dihomotopy_cover
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_cover.lean:244:56: warning: Variable name `ht₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+[25/34] Lean4.pushout_alternative
+[26/34] Lean4.dihomotopy_flip
+[27/34] Lean4.dihomotopy_to_path_dihomotopy
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:40:24: warning: Variable name `t₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _t₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:40:27: warning: Variable name `t₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _t₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:40:30: warning: Variable name `γ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _γ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:40:41: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:40:43: warning: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:50:24: warning: Variable name `t₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _t₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:50:27: warning: Variable name `t₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _t₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:50:30: warning: Variable name `γ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _γ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:50:41: warning: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/dihomotopy_to_path_dihomotopy.lean:50:43: warning: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+[28/34] Lean4.morphism_aux
+[29/34] Lean4.path_descent_helpers
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:27:17: warning: Definition `Dipath.Dihomotopic.setoid` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:118:6: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:136:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:143:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:241:63: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:252:10: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Try this:
+  [apply] rwa [← functorOnHomOfCovered_apply_left hX h_comm this]
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.rwaSuggestion false`
+Try this:
+  [apply] rwa [← functorOnHomOfCovered_apply_right hX h_comm this]
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.rwaSuggestion false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:723:17: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [T, Fraction.ofPos_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:723:40: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [T, Fraction.Fraction_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:745:17: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [T, Fraction.ofPos_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:745:40: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [T, Fraction.Fraction_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:857:2: warning: Unused tactic linter: `repeat { rw [functorOnHom_apply]
+}` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:1022:15: warning: This simp argument is unused:
+  Fraction.Fraction_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [T, Fraction.ofPos_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/Lean4/path_descent_helpers.lean:1022:38: warning: This simp argument is unused:
+  Fraction.ofPos_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [T, Fraction.Fraction_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+[30/34] ClassicalSVK.Bridge.Categories
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Bridge/Categories.lean:28:17: warning: Definition `Dipath.Dihomotopic.setoid` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Bridge/Categories.lean:60:9: warning: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Bridge/Categories.lean:60:11: warning: Variable name `q` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _q
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Bridge/Categories.lean:65:9: warning: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Bridge/Categories.lean:65:11: warning: Variable name `q` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _q
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+[31/34] ClassicalSVK.Bridge.Naturality
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Bridge/Naturality.lean:16:17: warning: Definition `Dipath.Dihomotopic.setoid` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+[32/34] ClassicalSVK.Bridge.Naturality2
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Bridge/Naturality2.lean:16:17: warning: Definition `Dipath.Dihomotopic.setoid` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+[33/34] ClassicalSVK.Bridge.Iso
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Bridge/Iso.lean:16:17: warning: Definition `Dipath.Dihomotopic.setoid` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+[34/34] ClassicalSVK.Pushout
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Pushout.lean:31:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+/workspace/shared/cell-attachment-lean/vendor/classical-svk/ClassicalSVK/Pushout.lean:32:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`

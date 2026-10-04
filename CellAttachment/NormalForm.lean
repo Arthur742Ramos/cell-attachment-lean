@@ -1,4 +1,9 @@
-import CellAttachment.Adjunction
+module
+
+public import CellAttachment.Adjunction
+
+@[expose] public section
+
 
 /-!
 # Algebraic normal forms in the genuine attaching quotient

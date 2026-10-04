@@ -1,0 +1,4 @@
+Running Lean default kernel on solution
+bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted
+error: Lean default exited with 1
+Lean default kernel rejected the solution

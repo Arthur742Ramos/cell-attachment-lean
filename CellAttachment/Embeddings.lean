@@ -1,5 +1,10 @@
-import CellAttachment.OpenCover
-import Mathlib.Topology.Homeomorph.Lemmas
+module
+
+public import CellAttachment.OpenCover
+public import Mathlib.Topology.Homeomorph.Lemmas
+
+@[expose] public section
+
 
 /-!
 # Genuine embeddings in the attaching quotient

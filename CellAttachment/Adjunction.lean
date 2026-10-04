@@ -1,6 +1,11 @@
-import Mathlib.Analysis.Complex.Circle
-import Mathlib.Topology.Constructions
-import Mathlib.AlgebraicTopology.FundamentalGroupoid.FundamentalGroup
+module
+
+public import Mathlib.Analysis.Complex.Circle
+public import Mathlib.Topology.Constructions
+public import Mathlib.AlgebraicTopology.FundamentalGroupoid.FundamentalGroup
+
+@[expose] public section
+
 
 /-!
 # Genuine adjunction space for an arbitrary family of two-cells

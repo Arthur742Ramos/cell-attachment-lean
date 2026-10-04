@@ -1,3 +1,5 @@
+module
+
 /-
 Copyright (c) 2026 Ruize Chen. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
@@ -16,13 +18,15 @@ Chris Hughes, authors Chris Hughes and Snir Broshi (Apache 2.0).
 https://github.com/leanprover-community/mathlib4/blob/389347a7c1cfa76f6bd5be2ca35d4cb621610ad3/Mathlib/Algebra/Group/Subgroup/ZPowers/Lemmas.lean
 All additions after `end AddCircle` are project-specific.
 -/
-module
 
 public import Mathlib.Topology.Covering.AddCircle
 public import Mathlib.Topology.Homotopy.Lifting
 public import Mathlib.Topology.Instances.ZMultiples
 public import Mathlib.Analysis.Convex.Contractible
 public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
+
+@[expose] public section
+
 
 /-!
 # The fundamental group of the circle
@@ -34,7 +38,6 @@ For `0 < p`, the fundamental group of `AddCircle p` at any basepoint is isomorph
 number `n` (`AddCircle.windingNumber_zsmulLoop`).
 -/
 
-@[expose] public section
 
 open unitInterval
 

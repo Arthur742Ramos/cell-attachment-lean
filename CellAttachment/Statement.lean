@@ -1,6 +1,11 @@
-import CellAttachment.Adjunction
-import CellAttachment.CircleGenerator
-import CellAttachment.GroupQuotient
+module
+
+public import CellAttachment.Adjunction
+public import CellAttachment.CircleGenerator
+public import CellAttachment.GroupQuotient
+
+@[expose] public section
+
 
 /-!
 # Exact target: attaching any family of two-cells

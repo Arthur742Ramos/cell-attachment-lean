@@ -1,0 +1,98 @@
+version: "v0.4"
+project:
+  name: "Fundamental Groups of Arbitrary Two-Cell Attachments"
+  description: >-
+    The full arbitrary-family two-cell attachment theorem for ordinary topological
+    fundamental groups. For any path-connected topological space X, any basepoint,
+    and any indexed family of continuous circle attaching maps, a genuine adjunction
+    quotient is constructed from X and the coproduct of closed complex unit disks.
+    The actual inclusion-induced fundamental-group homomorphism is surjective and
+    its kernel is precisely the normal closure of the once-around attaching loops,
+    transported along the specified basepoint paths. A quotient group isomorphism
+    is proved compatible with the actual inclusion map. No finiteness, CW,
+    separation, local-connectivity or semilocal-simple-connectivity hypotheses are added.
+  authors: ["Arthur Freitas Ramos", "David Barros Hulak", "Ruy Jose Guerra Barretto de Queiroz"]
+  responsible_maintainers: ["Arthur Freitas Ramos"]
+  license: "Apache-2.0"
+classification:
+  arxiv: ["math.AT", "math.CT"]
+  msc2020: ["55Q05", "18B40"]
+sources:
+  - title: "Algebraic Topology"
+    authors: ["Allen Hatcher"]
+    type: book
+    id: "https://pi.math.cornell.edu/~hatcher/AT/AT..pdf"
+    location: "Proposition 1.26, printed pages 50–51; Appendix Proposition A.17, printed page 532"
+    relationship: formalizes
+    note: "The classical arbitrary-collection two-cell attachment theorem; no mathematical novelty claim."
+    author_endorsement: not-contacted
+  - title: "The Directed Van Kampen Theorem in Lean"
+    authors: ["Henning Basold", "Peter Bruin", "Dominique Lawson"]
+    type: "conference paper and formalization"
+    id: "10.4230/LIPIcs.ITP.2024.8"
+    relationship: builds-on
+    location: "Constructive path-subdivision and homotopy-grid infrastructure, via the credited ordinary groupoid bridge"
+    note: "The reused helper source and licenses are preserved; this project does not claim its independent authorship."
+    author_endorsement: not-contacted
+related_formalizations:
+  - id: "https://github.com/Arthur742Ramos/classical-svk-lean/tree/874680e16db88b4a41daadf56eafbac79fd2f748"
+    relationship: builds-on
+    note: >-
+      The registered ordinary continuous-path fundamental-groupoid open-cover pushout
+      theorem is reused at this exact snapshot. Only its imported source closure is
+      copied, with a documented mechanical module-visibility port.
+  - id: "https://github.com/Dominique-Lawson/Directed-Topology-Lean-4/tree/009529606c66d37ef93b4b81b8587f71ce4d2c56"
+    relationship: builds-on
+    note: "Basold–Bruin–Lawson path-descent helpers under MIT; full inherited provenance and source manifests retained."
+  - id: "https://github.com/leanprover-community/mathlib4/tree/389347a7c1cfa76f6bd5be2ca35d4cb621610ad3"
+    relationship: adapts
+    note: >-
+      A minimal credited Apache-2.0 backport of Ruize Chen's circle winding-number
+      result and its required lifting lemmas supports the concrete once-around
+      generator without changing the required Lean 4.35.0-rc2/mathlib pin.
+status:
+  scope: >-
+    Full arbitrary-family adjunction quotient and actual inclusion-induced map,
+    with independently quantified space and index universes, chosen basepoint paths,
+    exact normal-closure kernel and inclusion-compatible quotient isomorphism.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+automation:
+  methods:
+    - method: agent
+      models: ["GPT-6.1 Sol, High reasoning"]
+      framework: "Lean 4 and mathlib"
+      tool_setup: "AI-assisted proof construction, kernel-checked tactics, separate statement and implementation reviews, and compiled adversarial examples."
+  spend_usd: "not tracked"
+  notes: >-
+    Human direction selected and authorized the exact topology target. Construction,
+    Lean proofs and independent AI-assisted reviews are disclosed without assigning
+    authorship to the assistant. The standalone Challenge has one deliberate target
+    theorem hole, excluded from the complete Solution's proof admission counts.
+fidelity:
+  divergences: >-
+    No additional mathematical hypotheses. The circle and disk are represented as
+    the standard complex unit circle and closed unit disk; the independent index
+    type has the coproduct topology via a sigma type, never an arbitrary product
+    topology. The proof uses an all-object groupoid pushout to handle disconnected
+    overlap components directly, rather than introducing connecting strips.
+review:
+  status: "Separate exact-statement and modular implementation reviews passed; fresh module/standalone compilation and independent local kernels passed; standalone review and official hosted gates are being verified separately."
+  notes: >-
+    The review checks genuine quotient topology, joint radial homotopy continuity,
+    circle-generator identification, disconnected groupoid overlap, actual induced
+    map compatibility, arbitrary universes and degenerate families. It does not
+    assert human review, worldwide first formalization, registry submission or acceptance.
+alignment:
+  namespace: "CellAttachment"
+  statements:
+    - source: "Hatcher Proposition 1.26(a), printed pages 50–51"
+      lean: "CellAttachment.two_cell_attachment"
+      module: "Solution"
+      status: proved
+      note: "The full arbitrary-family two-cell attachment theorem and compatible quotient isomorphism."
+acknowledgements: >-
+  Allen Hatcher for the classical exposition; Basold, Bruin and Lawson for credited
+  path-descent infrastructure; Mathlib and its circle/covering contributors;
+  Lean and its independent kernel tools. Arthur Freitas Ramos is the sole maintainer.

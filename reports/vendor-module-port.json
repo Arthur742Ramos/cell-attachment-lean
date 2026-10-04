@@ -1,0 +1,274 @@
+[
+  {
+    "module": "Lean4.fraction",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/fraction.lean",
+    "origin_sha256": "820a3c2558b45c3e95935c7822df16f36e5ea1e54993f5f99c0b4d2e18253997",
+    "ported_sha256": "060de7497f411e122753d06dd9c3c3c14436108b4fa2081aa99a47e7179a85cf",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.cover_lemma",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/cover_lemma.lean",
+    "origin_sha256": "7c0a543422c92ca832cad4380473f00a12d2586e7a7b2c79192e38268a17b1cc",
+    "ported_sha256": "f2ba7026f35de6afa537a3d994bc0a92c9cb6fe9f3820f7507e544a0841806c4",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.directed_space",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/directed_space.lean",
+    "origin_sha256": "09e69127b1ec85d08a3c07e52e4f6699c287c6514fed9f937d7515a32641e7de",
+    "ported_sha256": "4673c5af561b9f7885df848bc2f7574bb0370d995ac61b17ac11daaa1b09478a",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.directed_map",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/directed_map.lean",
+    "origin_sha256": "613bdff91f22735e204dea220aebeaafc75c7564ee51fd76334db70b04c6f887",
+    "ported_sha256": "49d678568366e295f2ac4b82fdb9f6a420c04107bebe22f3b933c66037eb75cf",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.monotone_path",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/monotone_path.lean",
+    "origin_sha256": "33ede14d73e2b74eb92ae34ec1f8f54f65211742fa01893e0cf6434706faf9b1",
+    "ported_sha256": "ddaaa0f2b7779a32bf8e0fe58ba59535e391e2629ae9cd3bd953c7cdb2ef1890",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.constructions",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/constructions.lean",
+    "origin_sha256": "420284bb73bfb5c2ab975914005df99e3f4e7aa3bc7b1d193e62fbaece14c896",
+    "ported_sha256": "6b180fa47df74cdcfad85b974070e172f55bdf0024e4173a406b0134c1820ce7",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.directed_unit_interval",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/directed_unit_interval.lean",
+    "origin_sha256": "553651ef639d5839918037015e1ceff28f6c74dbee4bbd545e230d1269ed13d3",
+    "ported_sha256": "8b528ed495376ec69c75bb7d6a61357f4ddb55c080c33ddfb9b9e8573dc3d822",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.unit_interval_aux",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/unit_interval_aux.lean",
+    "origin_sha256": "adf46da60215ef055f074fcde6045681d26ec5190ec49d09a2e4b790d083afd1",
+    "ported_sha256": "7b283d6274646029a16ffda978227eb9025aef3a10e7dc13f1f36e9ae1487e59",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.dipath",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/dipath.lean",
+    "origin_sha256": "bc945a9c6c17779e0b43e142001a04bdf169a8e91ae32d058fabca0bb892075c",
+    "ported_sha256": "1685feb92973fc9ee02d3852055fbd722e9c144db5f8cb646c432637c2752572",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.dTop",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/dTop.lean",
+    "origin_sha256": "ecf159868eb62532a09cc04cca735c45219013f5e8c17bd96903e56f434447b1",
+    "ported_sha256": "a46ef4d00ed0d0ca52d50f2a364ae1d80cbe652d07d0321b5671dc387742ecb1",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.interpolate",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/interpolate.lean",
+    "origin_sha256": "572e0ac4720f53eac29630069aa4f9eae6ad2cf9a6a057a1868f825b8dae37b5",
+    "ported_sha256": "27b85588011ce98ce587b79351219d5cfcece95af614a05c84929f1bb638fd4e",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.SplitPath.split_path",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/SplitPath/split_path.lean",
+    "origin_sha256": "84578184ea7b00de3a40a52a43e836ff4580dccef0bd4526bdec39895afacc7c",
+    "ported_sha256": "5fa4dd412731741524d6b7fb618b2af40fc1ad83d65845dfa7a690de6d08f6ab",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.SplitPath.split_dipath",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/SplitPath/split_dipath.lean",
+    "origin_sha256": "b260a5bc7c0958654b7192733312fc51884eadaac57e681c6e402958bba1e937",
+    "ported_sha256": "11630adb363910e1be8a1019dc8cd425f83719097074507e8a886fd2aa83b1cc",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.stretch_path",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/stretch_path.lean",
+    "origin_sha256": "efa321b4f28022ee4574b6158dd88c73f9aff80d8dbe80f2a21d06c28739c714",
+    "ported_sha256": "1111443c26be36f6a945bc0c1cdd579c5f42d100f1522e8709a8fdb466d195b0",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.directed_homotopy",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/directed_homotopy.lean",
+    "origin_sha256": "58a79316a38d3c40f2d7de7301f8155a53b9b0bbfe0a5322005c1bb02f6be858",
+    "ported_sha256": "f4bad6a0f8e12bbc102bed90be530caf05116410e4403f96438f55b4f8cafc64",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.trans_refl",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/trans_refl.lean",
+    "origin_sha256": "90edd60a97fc38464180e9ffdaeaf0a5e0b37f3d6eb16fbecef76e6fa74c8572",
+    "ported_sha256": "82bce6a92a231a637b93ff23618f30c7127c09941d712e908aaa9b2c4521e39c",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.directed_path_homotopy",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/directed_path_homotopy.lean",
+    "origin_sha256": "8ea5ab47c63fd31b370300a1735cbe0558fbb67bb6beb36e79afc84ac75d71cf",
+    "ported_sha256": "3f490742118e2af100443486474e2a78aab5ea597793fe0d1a84abc0223e4013",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.fundamental_category",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/fundamental_category.lean",
+    "origin_sha256": "4de8e866c1d67f921d3a4970c07d53fa9b246d625783afaf0e427f08ff56ebc3",
+    "ported_sha256": "77c4d24695a2cc8b0980b5786bbd21f8de5fd4a8d30e46068733fd54157ee7bb",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.dipath_subtype",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/dipath_subtype.lean",
+    "origin_sha256": "1abfe3a3c3daa5701824e3015477b7f4479e2e1b45c9f4ad96dee85b9b4514ef",
+    "ported_sha256": "8b03ea6ea42097e030640804cfc82be676a4bbb2ffd4ee3d87fa16ebc2ef8c79",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.fraction_equalities",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/fraction_equalities.lean",
+    "origin_sha256": "38fd5d29c79c38d836ff07b224fdfe138f63a908dbe989093513d9aca12e3968",
+    "ported_sha256": "8c7afe75c5614190d8ac1dfbddf7b99f26a7781c5bc549489b1b1ae9927e4e46",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.SplitPath.split_properties",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/SplitPath/split_properties.lean",
+    "origin_sha256": "45701ee4590d86c7a0793a5f9d3d3e5538768dca9255baf106bc68672e00ec22",
+    "ported_sha256": "35e45d941d1cca210a3f5323b50f7ed9051c8799e7cf376a40e3ea973e06d4ba",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.path_cover",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/path_cover.lean",
+    "origin_sha256": "ee3922f2fd226dc86fafe2115263f2fe35736060e4dcde5a15162af157d5c287",
+    "ported_sha256": "b6c92ea78575d71b7d98956c245c99d679386a0d808f57ced4a966d922a18a3b",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.split_dihomotopy",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/split_dihomotopy.lean",
+    "origin_sha256": "099bcff2c5a292d86572138c4d9aa09bedd1f7c6dc9335fb393f98324ea6d448",
+    "ported_sha256": "f9b7449495a8341ab392497774e7ec3de247795010031dfa9d0445143be5020f",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.dihomotopy_cover",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/dihomotopy_cover.lean",
+    "origin_sha256": "e6f7d7cbaa2a6ce4eca94c32843a9dbb0ef37f5daa3e1aec2ba808b9b825454d",
+    "ported_sha256": "a19af32b2d963949181377beb78f3b1de519728a54bb1c146f6fb80229c53561",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.pushout_alternative",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/pushout_alternative.lean",
+    "origin_sha256": "69c1c1ef96a19fd117d0f237350f90a66f0dc3660e5b48455d5580dc8b404cf3",
+    "ported_sha256": "d3a64debf3085d2a810f0790d483684ea800e9929850970633bd2feb46c13053",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.dihomotopy_flip",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/dihomotopy_flip.lean",
+    "origin_sha256": "ddb5011c01d424f8d159bedfaee1a5ed5608084747fe2def17ed676abcb2c1c2",
+    "ported_sha256": "fe55d63b75f68fb859ee532c32389360f3e9be9515730ac8fed361064d23c3d3",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.dihomotopy_to_path_dihomotopy",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/dihomotopy_to_path_dihomotopy.lean",
+    "origin_sha256": "6055dc9f010820290b5400f605a2c2a53c1789c36600733e9f3708f884a3be29",
+    "ported_sha256": "6d603200ba482df50d111273126589b9914a87f6bfb881ef40157025a072146d",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.morphism_aux",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/morphism_aux.lean",
+    "origin_sha256": "451508bf05b86204acd4e14a81e80d69f7c5b2b636a91ca42bd364fc6b26fbcf",
+    "ported_sha256": "d0a454ef1fc7337b365dde3db8a43266a24eccc2cfa6be1ee14cb6957e8f633f",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "Lean4.path_descent_helpers",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "Lean4/path_descent_helpers.lean",
+    "origin_sha256": "729e5eb4fc1fc4f856abc65d41bb921241b287ce71928c494c562b510c9fdb42",
+    "ported_sha256": "40b253fa5c9e39e6021bc7d29c1a6cfe8d5f4870cbbcc5ccfc48702d7aaaddec",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "ClassicalSVK.Bridge.Categories",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "ClassicalSVK/Bridge/Categories.lean",
+    "origin_sha256": "f614d2094db767e4371df8e77afd122e53ff92dfff462fdfc2dc493270da2dda",
+    "ported_sha256": "91955dbf027b64ad5476efff7083dd294eac9184ea4377553619f371ba918625",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "ClassicalSVK.Bridge.Naturality",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "ClassicalSVK/Bridge/Naturality.lean",
+    "origin_sha256": "a0d3b144eae7a5ebfbbc111c720f8ed50c8ef697c9b7d771ad98565a4e8d1ba0",
+    "ported_sha256": "ffacb3e5f3997980277687d0df3a128e76e16ffeeedc3b668a40ed867a813622",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "ClassicalSVK.Bridge.Naturality2",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "ClassicalSVK/Bridge/Naturality2.lean",
+    "origin_sha256": "641431163003f7bfeff2628c8f7176ca4abda7f4c0430b3e5d7724acccaed1f3",
+    "ported_sha256": "ee0fd2d627bd842c269e482cde99c53eb4a71f3e79731efee7590ed79dd999ab",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "ClassicalSVK.Bridge.Iso",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "ClassicalSVK/Bridge/Iso.lean",
+    "origin_sha256": "eba7eb5567f9ffe7a9f0fc4ce3fcd665349c42c0da0ac3e9ff89e088e95cd6f8",
+    "ported_sha256": "c70795aba04e7bb4f5d878bedfaed69e01a6b6129f24d3b288602a89388eeb6b",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  },
+  {
+    "module": "ClassicalSVK.Pushout",
+    "origin_commit": "874680e16db88b4a41daadf56eafbac79fd2f748",
+    "path": "ClassicalSVK/Pushout.lean",
+    "origin_sha256": "02ca15789a2301d48b4b90acb01c79cef44658774071aec28e70f9fac79dec80",
+    "ported_sha256": "1fe2ee191814fd9053f8b011bd81a52b8a08da0872c1dc97e11a978364bfb39a",
+    "change": "module/public-import/exposed-public-section/blank-line layout only; normalized source identical"
+  }
+]

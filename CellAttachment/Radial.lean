@@ -1,5 +1,10 @@
-import CellAttachment.Adjunction
-import Mathlib.Topology.Homotopy.Basic
+module
+
+public import CellAttachment.Adjunction
+public import Mathlib.Topology.Homotopy.Basic
+
+@[expose] public section
+
 
 /-! # Explicit radial deformation of the punctured closed disk -/
 
@@ -95,5 +100,16 @@ lemma radialDeformation_boundary_fixed (t : unitInterval) (z : PuncturedDisk)
   apply Subtype.ext
   change radialCoefficient t z • puncturedCoordinate z = puncturedCoordinate z
   simp [radialCoefficient, h]
+
+/-- Positive radial expansion leaves the actual polar circle point unchanged. -/
+@[simp] lemma polar_radialDeformation (t : unitInterval) (z : PuncturedDisk) :
+    polar (radialDeformation t z) = polar z := by
+  apply Circle.ext
+  change ‖radialCoefficient t z • puncturedCoordinate z‖⁻¹ •
+    (radialCoefficient t z • puncturedCoordinate z) =
+      ‖puncturedCoordinate z‖⁻¹ • puncturedCoordinate z
+  rw [norm_smul, Real.norm_eq_abs, abs_of_pos (radialCoefficient_pos t z), smul_smul]
+  congr 1
+  field_simp [ne_of_gt (radialCoefficient_pos t z), ne_of_gt (punctured_norm_pos z)]
 
 end CellAttachment

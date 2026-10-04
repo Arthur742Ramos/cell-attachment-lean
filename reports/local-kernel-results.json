@@ -1,0 +1,41 @@
+[
+  {
+    "gate": "leanchecker",
+    "exit_code": 0,
+    "elapsed_seconds": 6.608,
+    "command": [
+      "/workspace/shared/economics-next-proof/.toolchain/elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/leanchecker",
+      "Solution"
+    ]
+  },
+  {
+    "gate": "leanchecker-paranoid",
+    "exit_code": 0,
+    "elapsed_seconds": 7.258,
+    "command": [
+      "/workspace/shared/economics-next-proof/.toolchain/elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/leanchecker-paranoid",
+      "Solution"
+    ]
+  },
+  {
+    "gate": "nanoda",
+    "exit_code": 0,
+    "elapsed_seconds": 4.467,
+    "command": [
+      "/workspace/shared/economics-next-proof/.toolchain/elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/nanoda_bin",
+      "/workspace/shared/cell-attachment-lean/.toolchain/audits/nanoda-config.json"
+    ]
+  },
+  {
+    "gate": "conron",
+    "exit_code": 0,
+    "elapsed_seconds": 18.781,
+    "command": [
+      "/workspace/shared/economics-next-proof/.toolchain/elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/con-ron",
+      "--verified",
+      "--jobs=4",
+      "--progress=1000",
+      "/workspace/shared/cell-attachment-lean/.toolchain/audits/solution.ndjson"
+    ]
+  }
+]

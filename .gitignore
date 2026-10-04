@@ -4,3 +4,5 @@ vendor/classical-svk/.git/
 reports/*.olean
 reports/*.ilean
 Smoke.lean
+
+vendor/classical-svk/

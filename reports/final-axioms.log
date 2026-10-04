@@ -1,0 +1,5 @@
+'CellAttachment.two_cell_attachment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CellAttachment.cell_attachment_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CellAttachment.neighborhood_inclusion_vertex_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CellAttachment.neighborhoodRadial_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CellAttachment.circleGenerator_generates' depends on axioms: [propext, Classical.choice, Quot.sound]

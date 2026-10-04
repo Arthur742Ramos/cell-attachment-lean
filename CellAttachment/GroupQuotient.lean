@@ -1,4 +1,9 @@
-import Mathlib.GroupTheory.QuotientGroup.Basic
+module
+
+public import Mathlib.GroupTheory.QuotientGroup.Basic
+
+@[expose] public section
+
 
 /-!
 # Algebraic quotient tools for cell attachment

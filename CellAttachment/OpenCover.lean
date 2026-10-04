@@ -1,4 +1,9 @@
-import CellAttachment.NormalForm
+module
+
+public import CellAttachment.NormalForm
+
+@[expose] public section
+
 
 /-!
 # The genuine two-open-set cover of an arbitrary cell attachment

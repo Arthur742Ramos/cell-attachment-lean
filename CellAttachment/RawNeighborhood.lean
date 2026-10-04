@@ -1,6 +1,11 @@
-import CellAttachment.OpenCover
-import CellAttachment.Radial
-import Mathlib.Topology.Homeomorph.Lemmas
+module
+
+public import CellAttachment.OpenCover
+public import CellAttachment.Radial
+public import Mathlib.Topology.Homeomorph.Lemmas
+
+@[expose] public section
+
 
 /-! # The punctured raw coproduct and its genuine quotient map -/
 
@@ -18,10 +23,11 @@ def puncturedRawInclusion : PuncturedRaw X ι → Raw X ι :=
   Sum.map id (Sigma.map id (fun _ => Subtype.val))
 
 lemma puncturedDisk_isOpen : IsOpen {z : Disk | (z : ℂ) ≠ 0} :=
-  isOpen_ne continuous_subtype_val continuous_const
+  isOpen_ne.preimage continuous_subtype_val
 
 lemma puncturedSigmaInclusion_isOpenEmbedding :
-    IsOpenEmbedding (Sigma.map id (fun _ : ι => (Subtype.val : PuncturedDisk → Disk))) :=
+    IsOpenEmbedding (Sigma.map id (fun _ : ι => Subtype.val) :
+      (Σ _ : ι, PuncturedDisk) → (Σ _ : ι, Disk)) :=
   (isOpenEmbedding_sigmaMap Function.injective_id).mpr
     (fun _ => puncturedDisk_isOpen.isOpenEmbedding_subtypeVal)
 
@@ -47,11 +53,9 @@ lemma puncturedRawInclusion_mem (f : ι → C(Circle, X)) (a : PuncturedRaw X ι
 def puncturedRawEquiv (f : ι → C(Circle, X)) :
     PuncturedRaw X ι ≃ (quotientMap f ⁻¹' puncturedNeighborhood f) where
   toFun a := ⟨puncturedRawInclusion a, puncturedRawInclusion_mem f a⟩
-  invFun a := match a.1 with
-    | .inl x => .inl x
-    | .inr ⟨i, z⟩ => .inr ⟨i, ⟨z, by
-        have h := a.2
-        change quotientMap f (.inr ⟨i, z⟩) ∉ centers f at h
+  invFun
+    | ⟨.inl x, _⟩ => .inl x
+    | ⟨.inr ⟨i, z⟩, h⟩ => .inr ⟨i, ⟨z, by
         exact (quotient_inr_mem_centers f i z).not.mp h⟩⟩
   left_inv a := by cases a <;> rfl
   right_inv a := by rcases a with ⟨a,h⟩; cases a <;> rfl
