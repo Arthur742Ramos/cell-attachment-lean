@@ -89,7 +89,7 @@ PROVENANCE.md and preserved Apache-2.0/MIT notices give exact source details.
 The theorem is classical; no mathematical novelty or worldwide first claim is made.
 
 Authors: Arthur Freitas Ramos, David Barros Hulak, Ruy Jose Guerra Barretto de Queiroz
-Sole responsible maintainer: Arthur Freitas Ramos
+Responsible maintainers: Arthur Freitas Ramos, David Barros Hulak, Ruy Jose Guerra Barretto de Queiroz
 
 Construction and separate mathematical/proof reviews were AI-assisted. Formal
 kernel checking is the proof-validation mechanism; no human-review claim is made.

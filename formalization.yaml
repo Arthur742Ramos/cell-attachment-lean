@@ -95,4 +95,4 @@ alignment:
 acknowledgements: >-
   Allen Hatcher for the classical exposition; Basold, Bruin and Lawson for credited
   path-descent infrastructure; Mathlib and its circle/covering contributors;
-  Lean and its independent kernel tools. Arthur Freitas Ramos is the sole maintainer.
+  Lean and its independent kernel tools. The responsible maintainers are Arthur Freitas Ramos, David Barros Hulak, and Ruy Jose Guerra Barretto de Queiroz.
