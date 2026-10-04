@@ -8,7 +8,7 @@ on:
         type: choice
         options:
           - I am a responsible author or maintainer
-          - I am submitting on behalf of a responsible author or maintainer
+          - I have approval from a responsible author or maintainer
       approve_binary_scoped_apparmor:
         description: "Set true only after specific approval for the official exact-bubblewrap userns profile on the disposable hosted runner if required"
         required: true

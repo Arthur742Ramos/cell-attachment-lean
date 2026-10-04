@@ -48,3 +48,13 @@ Both examined workflows are **manual workflow_dispatch only**, use read-only rep
 The corrected render wrapper hash is `1181c0cbef6002d5ffc88775d6e346c0241906af6f69a7a3ba96710d8ed504b8`; its hardcoded reviewed statement digest now matches the final Challenge above. The full-verification wrapper hash is `f034f38574cd0ccf04ab89158b087d3c391ad4bfaa833087d26270ef7ec31825`. Both YAML files parse. No security setting was changed, no sandbox bypass was attempted, and no registry or rendering workflow was dispatched by this reviewer.
 
 Complete reviewed final source and package hashes are recorded in `standalone-review-sha256.txt`. No implementation or dependency source was edited by the reviewer.
+
+## Scoped workflow-label correction, 2026-10-04 UTC
+
+After the first hosted full attempt [37168202144](https://github.com/Arthur742Ramos/cell-attachment-lean/actions/runs/37168202144), the second authorization choice in `.github/workflows/palomar.yml` was corrected from `I am submitting on behalf of a responsible author or maintainer` to the pinned backend's exact accepted label, `I have approval from a responsible author or maintainer`.
+
+**This minimal correction passes independent validation.** Git diff against `7a61606c6b511a20178beb26705be5c61a7890b9` contains only that one choice replacement. The reviewer verified `scripts/submission_contract.py` and `scripts/verify_submission.py` against their exact Git blob identities in the cached tree for pipeline commit `65f0154ed776cd26c224254aa57b379137f28b0d`. Both workflow choices are in `AUTHORIZATION_RELATIONSHIPS`; the corrected value maps to `approved`, while the old value is unrecognized. A local `submission_request` smoke using the corrected options and its approved-role lookup succeeds.
+
+The corrected full-verification wrapper SHA-256 is **`dc1df86ef4b874e72e7df1efb3950ec4b5b531052ea15df2cc97fa8f3743e7cf`**. This supersedes only the prior wrapper digest in this review; the earlier source manifest remains a historical snapshot. The proof and standalone artifact hashes, renderer hash, pipeline pin, security-approval guard, and execution profile are unchanged. No proof recompilation was needed for this non-mathematical edit.
+
+The first hosted report's visible diagnostic is `palomar.reporting_failed`. Its logs show the old, unrecognized relationship and `prepare.ready: false`; Lean installation, bubblewrap, and proof execution were skipped. The pinned preparation code rejects that relationship before constructing the source-binding report, which supports the wrapper diagnosis rather than a theorem failure. This correction does not certify a successful retry or a completed official verification gate. The reviewer performed no dispatch, intake, security change, or external outreach.
