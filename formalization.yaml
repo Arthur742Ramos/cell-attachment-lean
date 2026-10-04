@@ -12,7 +12,7 @@ project:
     is proved compatible with the actual inclusion map. No finiteness, CW,
     separation, local-connectivity or semilocal-simple-connectivity hypotheses are added.
   authors: ["Arthur Freitas Ramos", "David Barros Hulak", "Ruy Jose Guerra Barretto de Queiroz"]
-  responsible_maintainers: ["Arthur Freitas Ramos"]
+  responsible_maintainers: ["Arthur Freitas Ramos", "David Barros Hulak", "Ruy Jose Guerra Barretto de Queiroz"]
   license: "Apache-2.0"
 classification:
   arxiv: ["math.AT", "math.CT"]
