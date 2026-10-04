@@ -52,3 +52,20 @@ dispatch. Publishing this source does not authorize registry submission.
 
 Current policy was reverified at PalomarPolicy96b034cc31a72a63d4f4041911dce337a85c9a04;
 current workflow/pipeline at PalomarSubmission65f0154ed776cd26c224254aa57b379137f28b0d.
+
+## Reproduce the separate direct gates
+
+After a normal fresh build, run from the repository root:
+
+    mkdir -p .toolchain/audits
+    lake env leanchecker Solution
+    lake env leanchecker-paranoid Solution
+    lake env leanexport Solution -- $(python3 -c 'import json; print(" ".join(json.load(open("reports/export-targets.json"))))') > .toolchain/audits/solution.ndjson
+    lake env nanoda_bin reports/nanoda-config.json
+    lake env con-ron --verified --jobs=4 .toolchain/audits/solution.ndjson
+
+The export target list contains the exact pinned toolchain primitive targets,
+quotient primitives, main theorem and permitted axioms. reports/nanoda-config.json
+uses a relative export path and forbids every additional axiom. These are the
+separate direct gates; they must not be relabeled a passing Comparator or official
+hosted pipeline verdict.

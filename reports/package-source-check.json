@@ -1,0 +1,14 @@
+{
+  "policy_commit": "96b034cc31a72a63d4f4041911dce337a85c9a04",
+  "pipeline_commit": "65f0154ed776cd26c224254aa57b379137f28b0d",
+  "source_snapshot_commit": "6197134ff779870141a99b5cd3c6c593ff7464fe",
+  "source_requirements": {
+    "schema_version": 1,
+    "module_required": true,
+    "maximum_lines": 10000,
+    "files_checked": 62
+  },
+  "source_issue_count": 0,
+  "metadata_minimum": "passed",
+  "gitlink_count": 0
+}

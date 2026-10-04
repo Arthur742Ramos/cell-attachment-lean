@@ -1,4 +1,7 @@
-# Development checkpoint 2026-10-04 UTC
+# Historical development checkpoint, 2026-10-04 00:32 UTC
+
+This early infrastructure snapshot predates the completed main theorem. It is
+superseded by README.md, the final local kernel logs and later independent reviews.
 
 The exact source pins are fixed. Statement, Adjunction, NormalForm, OpenCover,
 Embeddings, Radial, GroupQuotient, CircleGenerator compile independently against

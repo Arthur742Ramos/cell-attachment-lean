@@ -78,7 +78,7 @@ fidelity:
     topology. The proof uses an all-object groupoid pushout to handle disconnected
     overlap components directly, rather than introducing connecting strips.
 review:
-  status: "Separate exact-statement and modular implementation reviews passed; fresh module/standalone compilation and independent local kernels passed; standalone review and official hosted gates are being verified separately."
+  status: "Separate exact-statement and modular implementation reviews passed; fresh module/standalone compilation, separate standalone review and independent local kernels passed; official hosted gates remain separately unverified."
   notes: >-
     The review checks genuine quotient topology, joint radial homotopy continuity,
     circle-generator identification, disconnected groupoid overlap, actual induced
